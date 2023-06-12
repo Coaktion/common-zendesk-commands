@@ -18,7 +18,7 @@ $ npm install -g @coaktion/common-zendesk-commands
 $ common-zendesk-commands COMMAND
 running command...
 $ common-zendesk-commands (--version)
-@coaktion/common-zendesk-commands/0.2.0 darwin-arm64 node-v16.19.0
+@coaktion/common-zendesk-commands/0.3.0 darwin-arm64 node-v16.19.0
 $ common-zendesk-commands --help [COMMAND]
 USAGE
   $ common-zendesk-commands COMMAND
@@ -56,7 +56,7 @@ EXAMPLES
   $ common-zendesk-commands dev
 ```
 
-_See code: [dist/commands/dev.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.2.0/dist/commands/dev.ts)_
+_See code: [dist/commands/dev.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.3.0/dist/commands/dev.ts)_
 
 ## `common-zendesk-commands generate-config`
 
@@ -73,7 +73,7 @@ EXAMPLES
   $ common-zendesk-commands generate-config
 ```
 
-_See code: [dist/commands/generate-config.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.2.0/dist/commands/generate-config.ts)_
+_See code: [dist/commands/generate-config.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.3.0/dist/commands/generate-config.ts)_
 
 ## `common-zendesk-commands help [COMMANDS]`
 
@@ -343,5 +343,5 @@ EXAMPLES
   $ common-zendesk-commands publish
 ```
 
-_See code: [dist/commands/publish.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.2.0/dist/commands/publish.ts)_
+_See code: [dist/commands/publish.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.3.0/dist/commands/publish.ts)_
 <!-- commandsstop -->
