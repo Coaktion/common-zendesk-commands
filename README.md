@@ -14,11 +14,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @cokation/common-zendesk-commands
+$ npm install -g @coaktion/common-zendesk-commands
 $ common-zendesk-commands COMMAND
 running command...
 $ common-zendesk-commands (--version)
-@cokation/common-zendesk-commands/0.1.0 darwin-arm64 node-v16.19.0
+@coaktion/common-zendesk-commands/0.1.0 darwin-arm64 node-v16.19.0
 $ common-zendesk-commands --help [COMMAND]
 USAGE
   $ common-zendesk-commands COMMAND
@@ -27,6 +27,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`common-zendesk-commands dev`](#common-zendesk-commands-dev)
+* [`common-zendesk-commands generate-config`](#common-zendesk-commands-generate-config)
 * [`common-zendesk-commands help [COMMANDS]`](#common-zendesk-commands-help-commands)
 * [`common-zendesk-commands plugins`](#common-zendesk-commands-plugins)
 * [`common-zendesk-commands plugins:install PLUGIN...`](#common-zendesk-commands-pluginsinstall-plugin)
@@ -38,6 +40,40 @@ USAGE
 * [`common-zendesk-commands plugins:uninstall PLUGIN...`](#common-zendesk-commands-pluginsuninstall-plugin-2)
 * [`common-zendesk-commands plugins update`](#common-zendesk-commands-plugins-update)
 * [`common-zendesk-commands publish`](#common-zendesk-commands-publish)
+
+## `common-zendesk-commands dev`
+
+Starts the app in Zendesk development mode
+
+```
+USAGE
+  $ common-zendesk-commands dev
+
+DESCRIPTION
+  Starts the app in Zendesk development mode
+
+EXAMPLES
+  $ common-zendesk-commands dev
+```
+
+_See code: [dist/commands/dev.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.1.0/dist/commands/dev.ts)_
+
+## `common-zendesk-commands generate-config`
+
+Generates a zcli.apps.config.json file
+
+```
+USAGE
+  $ common-zendesk-commands generate-config
+
+DESCRIPTION
+  Generates a zcli.apps.config.json file
+
+EXAMPLES
+  $ common-zendesk-commands generate-config
+```
+
+_See code: [dist/commands/generate-config.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.1.0/dist/commands/generate-config.ts)_
 
 ## `common-zendesk-commands help [COMMANDS]`
 
@@ -294,14 +330,14 @@ DESCRIPTION
 
 ## `common-zendesk-commands publish`
 
-describe the command here
+Creates or updates the app in Zendesk
 
 ```
 USAGE
   $ common-zendesk-commands publish
 
 DESCRIPTION
-  describe the command here
+  Creates or updates the app in Zendesk
 
 EXAMPLES
   $ common-zendesk-commands publish
