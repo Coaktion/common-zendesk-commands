@@ -1,6 +1,6 @@
 {
   "name": "@coaktion/common-zendesk-commands",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Common Zendesk Commands",
   "author": "Paulo Tinoco @paulo-tinoco",
   "publishConfig": {
@@ -23,7 +23,8 @@
   "dependencies": {
     "@oclif/core": "^2",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.4.7"
+    "@oclif/plugin-plugins": "^2.4.7",
+    "@zendesk/zcli": "^1.0.0-beta.33"
   },
   "devDependencies": {
     "@oclif/test": "^2.3.21",
