@@ -33,7 +33,7 @@ export const createZcliAppConfig = async (rootPath?: string): Promise<void> => {
 }
 
 export const getDirectoryFiles = async (): Promise<string> => {
-  const defaultDirectories = ['dist', 'zendesk', 'zendesk-mock']
+  const defaultDirectories = ['dist', '', 'zendesk', 'zendesk-mock']
   for (const directory of defaultDirectories) {
     const directoryPath = path.join(process.cwd(), directory)
     const file = path.join(directoryPath, 'manifest.json')
