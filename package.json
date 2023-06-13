@@ -1,6 +1,6 @@
 {
   "name": "@coaktion/common-zendesk-commands",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Common Zendesk Commands",
   "author": "Paulo Tinoco @paulo-tinoco",
   "publishConfig": {
