@@ -1,19 +1,17 @@
-import {Command} from '@oclif/core'
-import {createZcliAppConfig} from '../utils'
+import { createZcliAppConfig } from "../utils";
+import { Command } from "@oclif/core";
 
 export default class GenerateConfig extends Command {
-  static description = 'Generates a zcli.apps.config.json file'
+  static description = "Generates a zcli.apps.config.json file";
 
-  static examples = [
-    '<%= config.bin %> <%= command.id %>',
-  ]
+  static examples = ["<%= config.bin %> <%= command.id %>"];
 
-  static flags = {}
+  static flags = {};
 
-  static args = {}
+  static args = {};
 
   public async run(): Promise<void> {
-    const paths = ['dist', 'build', '', 'zendesk', 'zendesk-mock']
-    await createZcliAppConfig(paths)
+    const paths = ["dist", "build", "", "zendesk", "zendesk-mock"];
+    await createZcliAppConfig(paths);
   }
 }
