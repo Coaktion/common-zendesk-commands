@@ -1,6 +1,47 @@
 {
   "extends": [
-    "oclif",
-    "oclif-typescript"
-  ]
+    "iplayer-ts",
+    "prettier",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "variable",
+        "format": [
+          "camelCase",
+          "UPPER_CASE",
+          "PascalCase"
+        ],
+        "leadingUnderscore": "allow"
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/consistent-type-assertions": [
+      "error",
+      {
+        "assertionStyle": "as"
+      }
+    ],
+    "func-style": [
+      "error",
+      "declaration",
+      {
+        "allowArrowFunctions": true
+      }
+    ]
+  }
 }

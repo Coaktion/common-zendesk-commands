@@ -1,5 +1,4 @@
-oclif-hello-world
-=================
+# oclif-hello-world
 
 oclif example Hello World CLI
 
@@ -8,38 +7,46 @@ oclif example Hello World CLI
 [![GitHub license](https://img.shields.io/github/license/oclif/hello-world)](https://github.com/oclif/hello-world/blob/main/LICENSE)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g @coaktion/common-zendesk-commands
 $ common-zendesk-commands COMMAND
 running command...
 $ common-zendesk-commands (--version)
-@coaktion/common-zendesk-commands/0.4.0 darwin-arm64 node-v16.19.0
+@coaktion/common-zendesk-commands/0.5.0 darwin-arm64 node-v16.19.0
 $ common-zendesk-commands --help [COMMAND]
 USAGE
   $ common-zendesk-commands COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`common-zendesk-commands dev`](#common-zendesk-commands-dev)
-* [`common-zendesk-commands generate-config`](#common-zendesk-commands-generate-config)
-* [`common-zendesk-commands help [COMMANDS]`](#common-zendesk-commands-help-commands)
-* [`common-zendesk-commands plugins`](#common-zendesk-commands-plugins)
-* [`common-zendesk-commands plugins:install PLUGIN...`](#common-zendesk-commands-pluginsinstall-plugin)
-* [`common-zendesk-commands plugins:inspect PLUGIN...`](#common-zendesk-commands-pluginsinspect-plugin)
-* [`common-zendesk-commands plugins:install PLUGIN...`](#common-zendesk-commands-pluginsinstall-plugin-1)
-* [`common-zendesk-commands plugins:link PLUGIN`](#common-zendesk-commands-pluginslink-plugin)
-* [`common-zendesk-commands plugins:uninstall PLUGIN...`](#common-zendesk-commands-pluginsuninstall-plugin)
-* [`common-zendesk-commands plugins:uninstall PLUGIN...`](#common-zendesk-commands-pluginsuninstall-plugin-1)
-* [`common-zendesk-commands plugins:uninstall PLUGIN...`](#common-zendesk-commands-pluginsuninstall-plugin-2)
-* [`common-zendesk-commands plugins update`](#common-zendesk-commands-plugins-update)
-* [`common-zendesk-commands publish`](#common-zendesk-commands-publish)
+
+- [`common-zendesk-commands dev`](#common-zendesk-commands-dev)
+- [`common-zendesk-commands generate-config`](#common-zendesk-commands-generate-config)
+- [`common-zendesk-commands help [COMMANDS]`](#common-zendesk-commands-help-commands)
+- [`common-zendesk-commands plugins`](#common-zendesk-commands-plugins)
+- [`common-zendesk-commands plugins:install PLUGIN...`](#common-zendesk-commands-pluginsinstall-plugin)
+- [`common-zendesk-commands plugins:inspect PLUGIN...`](#common-zendesk-commands-pluginsinspect-plugin)
+- [`common-zendesk-commands plugins:install PLUGIN...`](#common-zendesk-commands-pluginsinstall-plugin-1)
+- [`common-zendesk-commands plugins:link PLUGIN`](#common-zendesk-commands-pluginslink-plugin)
+- [`common-zendesk-commands plugins:uninstall PLUGIN...`](#common-zendesk-commands-pluginsuninstall-plugin)
+- [`common-zendesk-commands plugins:uninstall PLUGIN...`](#common-zendesk-commands-pluginsuninstall-plugin-1)
+- [`common-zendesk-commands plugins:uninstall PLUGIN...`](#common-zendesk-commands-pluginsuninstall-plugin-2)
+- [`common-zendesk-commands plugins update`](#common-zendesk-commands-plugins-update)
+- [`common-zendesk-commands publish`](#common-zendesk-commands-publish)
 
 ## `common-zendesk-commands dev`
 
@@ -56,7 +63,7 @@ EXAMPLES
   $ common-zendesk-commands dev
 ```
 
-_See code: [dist/commands/dev.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.4.0/dist/commands/dev.ts)_
+_See code: [dist/commands/dev.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.5.0/dist/commands/dev.ts)_
 
 ## `common-zendesk-commands generate-config`
 
@@ -73,7 +80,7 @@ EXAMPLES
   $ common-zendesk-commands generate-config
 ```
 
-_See code: [dist/commands/generate-config.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.4.0/dist/commands/generate-config.ts)_
+_See code: [dist/commands/generate-config.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.5.0/dist/commands/generate-config.ts)_
 
 ## `common-zendesk-commands help [COMMANDS]`
 
@@ -146,7 +153,7 @@ ALIASES
   $ common-zendesk-commands plugins add
 
 EXAMPLES
-  $ common-zendesk-commands plugins:install myplugin 
+  $ common-zendesk-commands plugins:install myplugin
 
   $ common-zendesk-commands plugins:install https://github.com/someuser/someplugin
 
@@ -209,7 +216,7 @@ ALIASES
   $ common-zendesk-commands plugins add
 
 EXAMPLES
-  $ common-zendesk-commands plugins:install myplugin 
+  $ common-zendesk-commands plugins:install myplugin
 
   $ common-zendesk-commands plugins:install https://github.com/someuser/someplugin
 
@@ -343,5 +350,6 @@ EXAMPLES
   $ common-zendesk-commands publish
 ```
 
-_See code: [dist/commands/publish.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.4.0/dist/commands/publish.ts)_
+_See code: [dist/commands/publish.ts](https://github.com/coaktion/common-zendesk-commands/blob/v0.5.0/dist/commands/publish.ts)_
+
 <!-- commandsstop -->
