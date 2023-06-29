@@ -1,7 +1,7 @@
 {
   "name": "@coaktion/common-zendesk-commands",
   "version": "0.5.0",
-  "description": "Common Zendesk Commands",
+  "description": "A library of common commands for the Zendesk CLI",
   "author": "Paulo Tinoco @paulo-tinoco",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
