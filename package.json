@@ -1,6 +1,6 @@
 {
   "name": "@coaktion/common-zendesk-commands",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "A library of common commands for the Zendesk CLI",
   "author": "Paulo Tinoco @paulo-tinoco",
   "publishConfig": {
