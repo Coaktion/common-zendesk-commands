@@ -13,6 +13,7 @@ export default class GenerateConfig extends Command {
   static args = {}
 
   public async run(): Promise<void> {
-    await createZcliAppConfig()
+    const paths = ['dist', 'build', '', 'zendesk', 'zendesk-mock']
+    await createZcliAppConfig(paths)
   }
 }

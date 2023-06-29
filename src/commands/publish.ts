@@ -14,8 +14,8 @@ export default class Publish extends Command {
 
   async run(): Promise<void> {
     const rootPath = process.cwd()
-
-    await createZcliAppConfig(rootPath)
+    const paths = ['dist', 'build', '']
+    await createZcliAppConfig(paths, rootPath)
 
     const command = `zcli apps:${
       process.env.ZENDESK_APP_ID ? 'update' : 'create'

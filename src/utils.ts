@@ -8,10 +8,10 @@ type AppConfig = {
   app_id?: string;
 };
 
-export const createZcliAppConfig = async (rootPath?: string): Promise<void> => {
+export const createZcliAppConfig = async (paths: string[], rootPath?: string): Promise<void> => {
   const zcliAppConfig: AppConfig = {parameters: {}, app_id: ''}
 
-  rootPath = rootPath || await getDirectoryFiles()
+  rootPath = rootPath || await getDirectoryFiles(paths)
 
   const rawData = await readFile(
     path.join(rootPath, 'manifest.json'),
@@ -32,8 +32,7 @@ export const createZcliAppConfig = async (rootPath?: string): Promise<void> => {
   )
 }
 
-export const getDirectoryFiles = async (): Promise<string> => {
-  const defaultDirectories = ['dist', '', 'zendesk', 'zendesk-mock']
+export const getDirectoryFiles = async (defaultDirectories: string[]): Promise<string> => {
   for (const directory of defaultDirectories) {
     const directoryPath = path.join(process.cwd(), directory)
     const file = path.join(directoryPath, 'manifest.json')
