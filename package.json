@@ -23,7 +23,7 @@
   "dependencies": {
     "@oclif/core": "^2",
     "@oclif/plugin-help": "^5",
-    "@zendesk/zcli": "^1.0.0-beta.33"
+    "@zendesk/zcli": "^1.0.0-beta.35"
   },
   "devDependencies": {
     "@oclif/test": "^2.3.21",
